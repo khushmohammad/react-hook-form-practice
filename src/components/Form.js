@@ -1,4 +1,4 @@
-import { useForm  } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import React, { useCallback, useEffect } from "react";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -74,8 +74,8 @@ export default function FormHook() {
               {/* <small id="helpId" className="form- text text-muted">Help text</small> */}
               {errors.Name && (
                 <small id="helpId" className="form- text text-muted">
-                  {" "}
-                  {errors.Name.message}{" "}
+                  
+                  {errors.Name.message}
                 </small>
               )}
             </div>
